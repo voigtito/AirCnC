@@ -1,0 +1,24 @@
+label#thumb{
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumb input{
+    display: none;
+
+}
+
+label#thumb.has-thumb {
+    border: 0;
+}
+
+label#thumb.has-thumb img {
+    display: none;
+}
